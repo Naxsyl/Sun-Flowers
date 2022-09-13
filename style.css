@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    padding: 60px 50px;
+    background-color: #EE6983;
+    align-items: center;
+}
+
+.gambar{
+    width: 40%;
+}
+.gambar img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.biodata{
+    width: 50%;
+    margin: 0px 40px;
+    color: #FFC4C4;
+}
+.biodata h1{
+    color: #FFF5E4;
+}
+.biodata h2{
+    color: #FFF5E4;
+}
+.biodata h3{
+    color: #FFF5E4;
+}
+.biodata p{
+    color: #FFF;
+}
+.sosmed{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+ .sosmed a{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #FFC4C4;
+    color: #FFF5E4;
+    text-decoration: none;
+}
